@@ -1,0 +1,325 @@
+/*--- General ---*/
+.filter-wrapper {
+    display: none;
+}
+
+input.form-autocomplete, input.form-text, input.form-file, textarea.form-textarea, select.form-select {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    box-sizing: inherit;
+    color: #333;
+    font-size: 17px;
+    font-weight: 200;
+    padding: 6px 10px;
+    vertical-align: baseline;
+}
+select.form-select option {
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+#edit-field-section-und-form-actions {
+    margin: 10px 0 0;
+    padding: 10px 0 0;
+    border-top: 1px solid #ccc;
+}
+input
+
+/*--- CKEditor --*/
+body.adminimal-theme .ckeditor_links {
+    margin-left: 10px;
+}
+
+/* Custom fieldset stuff */
+
+.form-item {
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+div.vertical-tabs {
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 5px #ddd;
+    border-radius: 5px 5px 0 0;
+    background-size: 20%;
+}
+div.vertical-tabs .vertical-tabs-list {
+    border-bottom: 1px solid #ccc;
+    float: left;
+    font-size: 1em;
+    line-height: 1;
+    margin: 0 -100% -1px 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 20%;
+    z-index: 1;
+}
+div.vertical-tabs ul li.vertical-tab-button {
+    list-style: outside none none;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+div.vertical-tabs ul li.vertical-tab-button.selected {
+    z-index: 2;
+}
+div.vertical-tabs ul li.vertical-tab-button .summary {
+    color: #aaa;
+    font-size: 12px;
+    line-height: 1.2em;
+    padding: 2px 0 0;
+}
+
+div.vertical-tabs ul li.vertical-tab-button.first a {
+	border-radius: 5px 0 0 0;
+}
+
+
+#block-system-main a {
+	color: #0074BD;	
+}
+#module-filter-tabs li a,
+#block-system-main div.vertical-tabs ul li.vertical-tab-button a {
+    color: #444;
+    font-size: 18px;
+    line-height: 1em;
+    padding: 15px;
+    position: relative;
+    z-index: 10;
+}
+#block-system-main div.vertical-tabs ul li.vertical-tab-button a strong {
+    font-weight: 200 !important;
+    font-family: "Helvetica Neue",sans-serif !important;
+    letter-spacing: 0.03em;
+}
+div.vertical-tabs ul li.selected a, 
+div.vertical-tabs ul li.selected a:hover, 
+div.vertical-tabs ul li.selected a:focus, 
+div.vertical-tabs ul li.selected a:active {
+    border-bottom: 2px solid #0074bd;
+    border-left: 1px solid #ccc;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+div.vertical-tabs .vertical-tabs-panes {
+	background-color: #fff;
+    margin: 0 0 0 20%;
+    padding: 1.5% 1%;
+    position: relative;
+    z-index: 10;
+}
+
+.vertical-tabs-panes fieldset.field-group-tab,
+.vertical-tabs-panes fieldset.vertical-tabs-pane {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.vertical-tabs-panes fieldset.field-group-tab legend,
+.vertical-tabs-panes fieldset.vertical-tabs-pane legend {
+	display: none !important;
+}
+.vertical-tabs-panes fieldset fieldset.form-wrapper legend {
+	display: block !important;
+}
+
+.vertical-tabs-panes fieldset .fieldset-wrapper .form-item {
+    padding: 0 10px 10px;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .form-type-textarea + a {
+    margin-left: 10px;
+}
+
+.vertical-tabs-panes fieldset .fieldset-wrapper .form-item,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-image,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-file,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-image.form-type-managed-file {
+    background-color: #fafafa;
+    border: 1px solid #e6e6e6;
+    border-top: 1px solid #0074BD;
+    box-shadow: 0 1px 5px #eee;
+    padding: 0 10px;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .form-item.form-type-checkbox,
+.vertical-tabs-panes fieldset .fieldset-wrapper .form-item.form-type-radio,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-image .form-item,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-file .form-item {
+    background-color: transparent;
+    border: none;
+    border-top: none;
+    box-shadow: none;
+    padding: 0 10px 10px;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-image .form-item,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-file .form-item,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper {
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper {
+    border: 0;
+    box-shadow: none;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-wrapper {
+    padding: 0;
+    margin: 0;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper legend {
+    display: none !important;
+}
+.ief-form .redirect-list {
+  display: none;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-type-select {
+	border: medium none;
+    box-shadow: none;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-section-und-entities-0-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-section-und-entities-1-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-section-und-entities-2-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-section-und-entities-3-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-section-und-entities-4-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-section-und-entities-5-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-section-und-entities-2-form-field-ref-documents-und-entities-0-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-section-und-entities-2-form-field-ref-documents-und-entities-1-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-section-und-entities-2-form-field-ref-documents-und-entities-2-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-section-und-entities-2-form-field-ref-documents-und-entities-3-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-section-und-entities-2-form-field-ref-documents-und-entities-4-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-model-und-entities-0-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-model-und-entities-1-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-model-und-entities-2-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-model-und-entities-3-form-language,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper .form-item-field-model-und-entities-4-form-language {
+  display: none;
+}
+input.form-submit {
+	margin-bottom: 0;
+    padding: 12px 15px;
+}
+.vertical-tabs-panes fieldset .form-item label, 
+.vertical-tabs-panes fieldset .exposed-filters .form-item label {
+    line-height: 20px;
+    margin: 10px 0;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-image .form-wrapper legend,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-file .form-wrapper legend,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper legend {
+	background: none repeat scroll 0 0 #e6e6e6;
+    border-top: 1px solid #0074BD;
+    display: block !important;
+    margin: -1px 0 0px -10px;
+    padding: 10px;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-image .vertical-tabs-panes .form-wrapper legend,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-file .vertical-tabs-panes .form-wrapper legend,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .vertical-tabs-panes .form-wrapper legend {
+  display: none !important;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-image .form-wrapper label,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-file .form-item label {
+	display: none;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-image .form-wrapper .image-widget {
+	margin-top: 40px;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-file .form-wrapper .file-widget,
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper {
+	/*margin-top: 28px;*/
+	margin-bottom: 0;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .ief-form {
+  
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-entityreference .form-wrapper {
+	margin-bottom: 0;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-addressfield {
+	background-color: #fafafa;
+    border: 1px solid #e6e6e6;
+    border-top: 1px solid #0074BD;
+    box-shadow: 0 1px 5px #eee;
+    padding: 0 10px 10px;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-addressfield .form-wrapper legend {
+	background: none repeat scroll 0 0 transparent;
+    border-top: 1px solid #0074BD;
+    display: block !important;
+    margin: -1px 0 0;
+    padding: 10px 0 0;
+}
+.vertical-tabs-panes fieldset .fieldset-wrapper .field-type-addressfield .form-wrapper .form-item {
+	border: none;
+	margin: 0;
+	padding: 0 10px 0;
+	background: transparent;
+	box-shadow: none;
+}
+
+div.vertical-tabs .field-group-tab fieldset {
+    border: medium none;
+    margin: 0;
+    padding: 12px 0;
+}
+.vertical-tabs-pane .fieldset-wrapper > div:first-child {
+    padding-top: 0;
+    margin-left: 1%;
+}
+
+/*--- horizontal tabs ---*/
+
+.field-group-htabs-wrapper {
+    margin: 10px 0 10px 10px;
+    padding: 10px 0;
+}
+div.horizontal-tabs {
+    border: none;
+}
+.vertical-tabs-panes .fieldset-wrapper .field-type-entityreference .form-wrapper .fieldset-wrapper .form-wrapper.horizontal-tabs-pane {
+    padding: 10px;
+}
+.vertical-tabs-panes .horizontal-tabs-panes {
+    border: 1px solid #ccc;
+}
+.vertical-tabs-panes .horizontal-tabs-panes,
+.vertical-tabs-panes .horizontal-tabs-panes .fieldset-wrapper {
+    background-color: #fff;
+}
+.horizontal-tabs ul.horizontal-tabs-list {
+    background-color: #eee;
+    margin: 0 1% -0.66%;
+    width: 98%;
+}
+.horizontal-tabs ul.horizontal-tabs-list li {
+    border-top: 3px solid #fafafa;
+}
+.horizontal-tabs ul.horizontal-tabs-list li.selected {
+    border: none;
+    border-top: 3px solid #0074BD;
+}
+.horizontal-tabs ul.horizontal-tabs-list li a:hover,
+.horizontal-tabs ul.horizontal-tabs-list li.selected a:hover,
+.horizontal-tabs ul.horizontal-tabs-list li a:active,
+.horizontal-tabs ul.horizontal-tabs-list li.selected a:active,
+.horizontal-tabs ul.horizontal-tabs-list li.selected a, 
+.horizontal-tabs ul.horizontal-tabs-list li.selected a:hover, 
+.horizontal-tabs ul.horizontal-tabs-list li.selected a:focus, 
+.horizontal-tabs ul.horizontal-tabs-list li.selected a:active {
+    border: none;
+}
+.horizontal-tabs ul.horizontal-tabs-list li a {
+    border: none;
+    padding: 5px 10px;
+}
+fieldset.horizontal-tabs-pane > .form-wrapper legend, 
+.vertical-tabs-pane .horizontal-tabs-pane .fieldset-wrapper .form-wrapper legend {
+    display: none !important;
+}
